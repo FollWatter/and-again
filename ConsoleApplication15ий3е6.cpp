@@ -9,7 +9,7 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    double S, Pi = 3.14, V, r = 3, h = 4;
+    double S, Pi = 3.14, V, r = 6, h = 4;
     S = 2 * Pi * r * h;
     V = Pi * r * r * h;
     printf("Площа бічної поверхні куба =%lf\n", S);
